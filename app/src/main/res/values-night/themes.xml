@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.NumberBookApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/nb_teal_primary</item>
+        <item name="colorPrimaryDark">@color/nb_teal_dark</item>
+        <item name="colorAccent">@color/nb_coral_accent</item>
+        <item name="android:colorBackground">#1A1F2E</item>
+        <item name="colorSurface">#252B3B</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:statusBarColor">#0D1117</item>
+    </style>
+</resources>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">NumberBookApp</string>
+    <string name="screen_title">Phone Directory</string>
+    <string name="screen_subtitle">Manage and sync your contacts</string>
+    <string name="btn_import">Import from Device</string>
+    <string name="btn_upload">Upload to Server</string>
+    <string name="hint_search">Type a name or phone number…</string>
+    <string name="btn_lookup">Find</string>
+    <string name="msg_permission_denied">Contacts access was denied</string>
+    <string name="msg_entries_imported">%1$d entries loaded from device</string>
+    <string name="msg_no_entries_to_upload">No entries to upload — import first</string>
+    <string name="msg_network_failure">Connection error — check your network</string>
+    <string name="msg_upload_started">Upload in progress…</string>
+    <string name="msg_empty_search">Please enter a search term</string>
+    <string name="msg_search_failed">Search could not be completed</string>
+</resources>

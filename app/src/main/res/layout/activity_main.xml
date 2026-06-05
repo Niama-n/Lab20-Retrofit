@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/nb_background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/screen_title"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="@color/nb_teal_dark"
+        android:letterSpacing="0.02" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/screen_subtitle"
+        android:textSize="14sp"
+        android:textColor="@color/nb_text_secondary"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/btnImportEntries"
+        style="@style/Widget.NumberBookApp.PrimaryButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_import" />
+
+    <Button
+        android:id="@+id/btnUploadEntries"
+        style="@style/Widget.NumberBookApp.AccentButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/btn_upload" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_search_bg"
+        android:gravity="center_vertical"
+        android:paddingStart="12dp"
+        android:paddingEnd="6dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp">
+
+        <EditText
+            android:id="@+id/etSearchQuery"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/hint_search"
+            android:background="@android:color/transparent"
+            android:padding="12dp"
+            android:textSize="15sp"
+            android:textColor="@color/nb_text_primary"
+            android:textColorHint="@color/nb_text_secondary"
+            android:inputType="text"
+            android:importantForAutofill="no" />
+
+        <Button
+            android:id="@+id/btnLookupEntry"
+            style="@style/Widget.NumberBookApp.LookupButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_lookup"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvPhoneEntries"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="20dp"
+        android:clipToPadding="false"
+        android:paddingBottom="8dp" />
+
+</LinearLayout>
