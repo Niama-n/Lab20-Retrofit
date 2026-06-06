@@ -8,6 +8,10 @@ Ce projet met en pratique trois compétences fondamentales du développement mob
 - la construction d'une interface utilisateur réactive avec `RecyclerView`.
 
 ---
+## Voila la demonstration
+
+<img width="720" height="1600" alt="1" src="https://github.com/user-attachments/assets/9c2bd49c-22cb-4b0c-8ff3-2b4d385d5ba3" />
+<img width="720" height="1600" alt="2" src="https://github.com/user-attachments/assets/a4ea178e-d2c7-4f71-a96e-ab0f9433cf85" />
 
 ## Table des matières
 
